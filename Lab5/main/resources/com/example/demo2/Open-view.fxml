@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: beige;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.OpenController">
+   <children>
+      <Text layoutX="351.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Open List" textAlignment="CENTER" wrappingWidth="234.0">
+         <font>
+            <Font name="Freestyle Script" size="50.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="TextArea" layoutX="230.0" layoutY="134.0" prefHeight="478.0" prefWidth="600.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.501960813999176" opacity="0.5099999904632568" />
+               </color>
+            </DropShadow>
+         </effect>
+      </TextArea>
+      <Button fx:id="BtnMenu" layoutX="770.0" layoutY="623.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="119.0" style="-fx-background-color: salmon;" text="Menu">
+         <font>
+            <Font name="Freestyle Script" size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="AnothOpen" alignment="TOP_CENTER" layoutX="24.0" layoutY="408.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="179.0" style="-fx-background-color: salmon;" text="Open Another Wish List" textFill="MAROON">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="WedOpen" alignment="TOP_CENTER" layoutX="24.0" layoutY="324.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="179.0" style="-fx-background-color: salmon;" text="Open Wedding Wish List" textFill="MAROON">
+         <font>
+            <Font name="Freestyle Script" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="ChristmasOpen" alignment="TOP_CENTER" layoutX="24.0" layoutY="238.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="179.0" style="-fx-background-color: salmon;" text="Open Chritmas Wish List" textFill="MAROON" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="BirthOpen" alignment="TOP_CENTER" layoutX="24.0" layoutY="151.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="179.0" style="-fx-background-color: salmon;" text="Open Birthday Wish List" textFill="MAROON">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
